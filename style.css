@@ -33,6 +33,10 @@ h3{
     margin-bottom: 50px;
 }
 
+.front{
+    z-index: 20;
+}
+
 /* Navbar */
 
 .navbar{
@@ -214,5 +218,71 @@ h3{
 
 .input__img:hover{
     color: rgb(20, 128, 65);
+}
+
+.overlay{
+    background-image: url("assets/EG_news_zoombg_01_1280.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-attachment:fixed ;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-size: cover;
+    z-index: 1;
+    opacity: 20%;
+    overflow: hidden;
+    max-height: 330px;
+}
+
+/* Search */
+
+#search{
+    position: relative;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.filter{
+    padding: 0 20px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-info{
+    font-size: 28px;
+    line-height: 1.25;
+    padding: 20px 0;
+}
+
+.filter-elem{
+    width: 30%;
+    min-width: 335px;
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    font-size: 20px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.slider__wrapper{
+    width: 100%;
+}
+
+.slider-container {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
 

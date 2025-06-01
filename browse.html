@@ -16,25 +16,50 @@
   <body>
     <header class="navbar navbar__browse">
       <div class="navbar__wrapper">
-        <div class="logo">
+        <div class="logo front">
           <i class="fa-solid fa-chess logo__img"></i>
-          <p class="site__name">Games Shelf</p>
+          <p class="site__name">Poké Binder TCG</p>
         </div>
-        <div class="links">
-          <a href="index.html" class="link">Home</a>
-          <a href="browse.html" class="link btn">Find Game</a>
+        <div class="links front">
+          <a href="index.html" class="link front">Home</a>
+          <a href="browse.html" class="link btn front">Find Cards</a>
         </div>
       </div>
       <div class="search__wrapper">
-        <h2 class="browse__title">Browse Games</h2>
-        <div class="landing__header--input browse__input">
-          <input type="text" placeholder="Search by Name" class="input__bar input__bar--browse" />
-          <div class="input__img">
-            <i class="fa-solid fa-magnifying-glass input__img"></i>
+        <h2 class="browse__title front">Browse Cards</h2>
+        <div class="landing__header--input browse__input front">
+          <input
+            type="text"
+            placeholder="Search by Name, Ability, Type, etc."
+            class="input__bar input__bar--browse front"
+          />
+          <div class="input__img front">
+            <i class="fa-solid fa-magnifying-glass input__img front"></i>
           </div>
         </div>
       </div>
+      <div class="overlay"></div>
     </header>
+    <section id="search">
+      <div class="progressbar">
+        <div class="progressbar__track"></div>
+        <div class="progressbar__fill"></div>
+        <div class="progressbar__buffer"></div>
+      </div>
+      <div class="filter">
+        <h2 class="search-info">Searcg results</h2>
+        <div class="filter-elem">
+          <h2 class="price">Price range: number</h2>
+          <div class="slider__wrapper">
+            
+           </div>
+      <div class="games">
+        <div class="game">
+
+        </div>
+        <div class="loading"></div>
+      </div>
+    </section>
   </body>
   <script src="index.js"></script>
 </html>
